@@ -6,6 +6,6 @@ const client = new ForgeClient({
 	events: ["messageCreate", "ready"],
 });
 
-client.login(token);
-
 client.applicationCommands.load("./commands");
+
+client.login(token);
