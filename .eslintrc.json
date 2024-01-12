@@ -10,7 +10,6 @@
 	"rules": {
 		"semi": ["error", "always"],
 		"no-var": "error",
-		"prefer-const": "error",
-		"quotes": ["error", "double"]
+		"prefer-const": "error"
 	}
 }
