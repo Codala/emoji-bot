@@ -9,10 +9,11 @@
 	"keywords": [],
 	"author": "",
 	"license": "ISC",
-	"dependencies": {
-		"forgescript": "^1.3.0"
-	},
 	"devDependencies": {
-		"prettier": "^3.1.1"
+		"prettier": "^3.1.1",
+		"typescript": "^5.3.3"
+	},
+	"dependencies": {
+		"forgescript": "github:tryforge/ForgeScript#dev"
 	}
 }
