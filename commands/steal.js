@@ -2,7 +2,7 @@ module.exports = {
 	code: `
 	$let[emoji;https://cdn.discordapp.com/emojis/$option[emoji]]
 
-	$onlyIf[$hasPerms[$guildID;$authorID;ManageGuildExpressions];$ephemeral You are missing the \`ManageGuildExpressions\` permissions.]
+	$onlyIf[$hasPerms[$guildID;$userID;ManageGuildExpressions];$ephemeral You are missing the \`ManageGuildExpressions\` permissions.]
 	$onlyIf[$httpRequest[$get[emoji];get]==200;$ephemeral The request didn't succeed. Make sure you provided a valid emoji ID.]
 
 	$if[$addEmoji[$guildID;$option[name];$get[emoji];true]!=;
