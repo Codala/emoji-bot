@@ -1,5 +1,5 @@
 module.exports = {
-	code: `
+	code: `	
 	$let[emoji;https://cdn.discordapp.com/emojis/$option[emoji]]
 
 	$onlyIf[$hasPerms[$guildID;$userID;ManageGuildExpressions];$ephemeral You are missing the \`ManageGuildExpressions\` permissions.]
@@ -38,5 +38,6 @@ module.exports = {
 				max_length: 32,
 			},
 		],
+		dmPermission: false,
 	},
 };
