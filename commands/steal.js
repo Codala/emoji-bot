@@ -1,7 +1,7 @@
 module.exports = {
 	code: `
 	$disableConsoleErrors
-	
+
 	$let[emoji;https://cdn.discordapp.com/emojis/$option[emoji]]
 
 	$onlyIf[$hasPerms[$guildID;$userID;ManageGuildExpressions];$ephemeral You are missing the \`ManageGuildExpressions\` permissions.]
@@ -15,7 +15,7 @@ module.exports = {
 	$timestamp
 	$color[#91c587]
 	;
-	$ephemeral An unexpected error occurred.
+	$ephemeral An unexpected error occurred. Make sure you provided a valid emoji ID and a valid emoji name.
 	]
 	`,
 	data: {
