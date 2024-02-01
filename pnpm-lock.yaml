@@ -7,7 +7,7 @@ settings:
 dependencies:
   forgescript:
     specifier: github:tryforge/ForgeScript#dev
-    version: github.com/tryforge/ForgeScript/76cf3d6bdbe0787e0dbc0900bd87b05eb2871233
+    version: github.com/tryforge/ForgeScript/766bbe1a4e059bfbf9de59ea794ab92c27ef1361
 
 devDependencies:
   eslint:
@@ -869,8 +869,8 @@ packages:
     engines: {node: '>=10'}
     dev: true
 
-  github.com/tryforge/ForgeScript/76cf3d6bdbe0787e0dbc0900bd87b05eb2871233:
-    resolution: {tarball: https://codeload.github.com/tryforge/ForgeScript/tar.gz/76cf3d6bdbe0787e0dbc0900bd87b05eb2871233}
+  github.com/tryforge/ForgeScript/766bbe1a4e059bfbf9de59ea794ab92c27ef1361:
+    resolution: {tarball: https://codeload.github.com/tryforge/ForgeScript/tar.gz/766bbe1a4e059bfbf9de59ea794ab92c27ef1361}
     name: forgescript
     version: 1.4.0
     engines: {node: '>=16.11.0'}
